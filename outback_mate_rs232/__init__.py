@@ -7,7 +7,7 @@ import pprint
 import logging
 pp = pprint.PrettyPrinter(indent=4)
 
-logger = logging.getLogger("khaotic_master")
+logger = logging.getLogger(__name__)
 
 class Mate:
     def __init__(self, port, system_voltage):
