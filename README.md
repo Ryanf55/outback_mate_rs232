@@ -2,7 +2,10 @@
 Python API for Outback Power Systems Mate using RS232
 
 This is a really simple python module to talk to a Outback Mate using python. 
-It is formatted as a python package, so go to the directory above outback_mate_rs232. 
+
+To use a replacement of the Outback Mate entirely with more options, but requiring soldering custom hardware, see [pymate](https://github.com/jorticus/pymate). Pymate also has a [RS232 module](https://github.com/jorticus/pymate/blob/master/pymate/matecom.py) but its functionality is more limited than here
+
+It is formatted as a python package, so after cloning, go to the directory above outback_mate_rs232. 
 ` $ python3 -m pip install -e outback_mate_rs232/`
 
 ## Hardware required
